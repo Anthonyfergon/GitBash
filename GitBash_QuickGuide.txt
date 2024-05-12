@@ -1,0 +1,51 @@
+git version
+
+git help
+
+~ (Alt + 126) = Home Directory
+
+pwd = present work directory
+
+dir = ls
+
+ls -al (extensive display)
+
+cd /c/windows/system32/
+
+cd ../../.. (allow us to go back certain levels in the root path)
+
+which ls (enlists the resources that are located in root path)
+
+echo "Hello Matrix" (echo works as the <Python.print> command)
+
+echo $PATH (displays the root path where you are positioned)
+
+echo "The current path is $PATH"
+
+echo "Hello Matrix" >> demo.txt (This way we can create a file with content within)
+
+cat test.txt (allow us to display the content of a file)
+
+less text.txt (Allow us to access and edit the content of a file, then press "q" to exit
+
+touch demo.txt (Touch allow us to create a new document) && (anytime I use the touch command the timestamp of the file is updated, so if you run the <ls -l> command you will the timestamp is more recent. 
+
+mv demo.txt demo-1.txt (rename a file/directory from demo.txt into demo-1.txt)
+
+rm demo-1.txt (allow us to remove a file)
+
+mkdir projects (allow us to create directories)
+
+rmdir projects (there is just one condition before removing a directory, the file must be empy otherwise you´ll get an error)
+rm -rf (remove recursive force allow us to delete all the content which is inside a directory)
+
+mkdir (allow us to create directories) && (you can create multiple directories as follows: mkdir Jan Feb Mar Apr, etc...in that way you will create 4 new directories)
+mkdir -p projects/MonteCarlo/2025/January/February (alternatively, <mkdir -p> allow us to create in one sigle instruction a tree of files)
+
+clear (clear the screen)
+
+exit (exit from Git Bash)
+
+./ example.sh (allow us to see the file content from the terminal)
+
+
